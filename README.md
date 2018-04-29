@@ -33,6 +33,10 @@
 
 ### 公共备份工具
 
+* [archive.is](http://archive.is/)：抓取能力强，可通过被删文的网址查找。（已被墙）
+* [Internet Archive](https://archive.org/)：互联网档案馆
+  * [save-to-the-wayback-machine](https://verifiedjoseph.com/projects/save-to-the-wayback-machine)：快速保存网页到互联网档案馆的插件
+
 ### 迁移工具
 
 * [蜜蜂采集-BeePress](https://wordpress.org/plugins/beepress/)：将微信公众号、今日头条、简书、知乎专栏文章导入 WordPress。
