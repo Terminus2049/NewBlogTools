@@ -29,16 +29,39 @@
 
 ### 基于 GitHub Page（推荐）
 
+GitHub Page 无需购买主机，甚至不需要额外购买域名，而且还能协作，还能抗封锁，不知道比 WordPress 高到哪里去了。
+
+搭建 GitHub Page 最简单的方法是 Fork 一个已有的站点，比如 <https://github.com/Terminus2049/Terminus2049.github.io>。
+
+只需要以下几个简单的步骤：
+
+1. 注册 GitHub
+2. fork https://github.com/Terminus2049/Terminus2049.github.io
+3. 在 setting 中打开 GitHub Page，source 选择“master branch”
+4. 在 setting 中将项目名称改为 Blog
+5. 修改 fork 后的仓库，将 `_config.yml` 中第 68 行 `baseurl: # /Terminus` 改为 `baseurl: Blog`
+
+然后就可以通过 `https://<username>.github.io/Blog` 访问。写文章的办法就是按照 [\_posts](https://github.com/Terminus2049/Terminus2049.github.io/tree/master/_posts) 文件夹中的格式写就行，当然你需要了解一点 [Markdown](https://www.jianshu.com/p/q81RER) 语法。
+
+你可以在 <http://jekyllthemes.org/> 尽情挑选你觉得最好看的主题。
+
 ### 基于 WordPress
+
+略
 
 ## 实用工具
 
 ### 公共备份工具
 
+* [ArchiveWeBot](https://github.com/Terminus2049/ArchiveWeBot) 快速保存微信公众号文章（已被墙）
 * [archive.is](http://archive.is/)：抓取能力强，可通过被删文的网址查找。（已被墙）
-* [Internet Archive](https://archive.org/)：互联网档案馆
-  * [save-to-the-wayback-machine](https://verifiedjoseph.com/projects/save-to-the-wayback-machine)：快速保存网页到互联网档案馆的插件
+* [Internet Archive](https://archive.org/)：互联网档案馆（已被墙）
+  * [save-to-the-wayback-machine](https://verifiedjoseph.com/projects/save-to-the-wayback-machine)：互联网档案馆的插件
 
 ### 迁移工具
 
 * [蜜蜂采集-BeePress](https://wordpress.org/plugins/beepress/)：将微信公众号、今日头条、简书、知乎专栏文章导入 WordPress。
+
+## 其他建议
+
+希望您能给原创文章添加 cc 协议，关于 cc 协议建议读读阮一峰的博文[谈谈创作共用许可证（Creative Commons licenses）](http://www.ruanyifeng.com/blog/2008/04/creative_commons_licenses.html)。
