@@ -31,19 +31,24 @@
 
 GitHub Page 无需购买主机，甚至不需要额外购买域名，而且还能协作，还能抗封锁，不知道比 WordPress 高到哪里去了。
 
-搭建 GitHub Page 最简单的方法是 Fork 一个已有的站点，比如 <https://github.com/Terminus2049/Terminus2049.github.io>。
+搭建 GitHub Page 最简单的方法是 Fork 一个已有的站点，比如 <https://github.com/TerminusBot/terminus-jekyll-template>。
 
 只需要以下几个简单的步骤：
 
 1. 注册 GitHub
-2. fork https://github.com/Terminus2049/Terminus2049.github.io
+2. fork https://github.com/TerminusBot/terminus-jekyll-template
 3. 在 setting 中打开 GitHub Page，source 选择“master branch”
 4. 在 setting 中将项目名称改为 Blog
 5. 修改 fork 后的仓库，将 `_config.yml` 中第 68 行 `baseurl: # /Terminus` 改为 `baseurl: Blog`
 
-然后就可以通过 `https://<username>.github.io/Blog` 访问。写文章的办法就是按照 [\_posts](https://github.com/Terminus2049/Terminus2049.github.io/tree/master/_posts) 文件夹中的格式写就行，当然你需要了解一点 [Markdown](https://www.jianshu.com/p/q81RER) 语法。
+然后就可以通过 `https://<username>.github.io/Blog` 访问。写文章的办法就是按照 [\_posts](https://github.com/TerminusBot/terminus-jekyll-template/tree/master/_posts) 文件夹中的格式写就行，当然你需要了解一点 [Markdown](https://www.jianshu.com/p/q81RER) 语法。
 
 你可以在 <http://jekyllthemes.org/> 尽情挑选你觉得最好看的主题。
+
+### 新手友好工具
+
+[gridea](https://github.com/getgridea/gridea): 一个静态博客写作客户端
+[HUGO](https://gohugo.io)：采用 go 开发的 HUGO 引擎，渲染速度更快，教程 [Using Hugo, GitLab Pages, and Cloudflare to create and run this Website](https://tkainrad.dev/posts/using-hugo-gitlab-pages-and-cloudflare-to-create-and-run-this-website/)
 
 ### 基于 WordPress
 
