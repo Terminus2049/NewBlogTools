@@ -58,7 +58,7 @@ GitHub Page 无需购买主机，甚至不需要额外购买域名，而且还�
 
 ### 公共备份工具
 
-* [ArchiveWeBot](https://github.com/Terminus2049/ArchiveWeBot) 快速保存微信公众号文章（已被墙）
+* [ArchiveTeleBot](https://github.com/Terminus2049/ArchiveTeleBot) 自动存档网址的 Telegram 机器人
 * [archive.is](http://archive.is/)：抓取能力强，可通过被删文的网址查找。（已被墙）
 * [Internet Archive](https://archive.org/)：互联网档案馆（已被墙）
   * [save-to-the-wayback-machine](https://verifiedjoseph.com/projects/save-to-the-wayback-machine)：互联网档案馆的插件
