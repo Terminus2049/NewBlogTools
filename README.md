@@ -37,11 +37,10 @@ GitHub Page 无需购买主机，甚至不需要额外购买域名，而且还�
 
 1. 注册 GitHub
 2. fork https://github.com/TerminusBot/terminus-jekyll-template
-3. 在 setting 中打开 GitHub Page，source 选择“master branch”
-4. 在 setting 中将项目名称改为 Blog
-5. 修改 fork 后的仓库，将 `_config.yml` 中第 68 行 `baseurl: # /Terminus` 改为 `baseurl: Blog`
-
-然后就可以通过 `https://<username>.github.io/Blog` 访问。写文章的办法就是按照 [\_posts](https://github.com/TerminusBot/terminus-jekyll-template/tree/master/_posts) 文件夹中的格式写就行，当然你需要了解一点 [Markdown](https://www.jianshu.com/p/q81RER) 语法。
+3. 在 Settings 中打开 GitHub Page，source 选择“master branch”
+4. 在 Settings 中修改项目名称，如 Blog（或者其他任何英文名称），然后你就可以在 `https://yourusername.github.io/blog` 看到你的网站。
+5. 在about.md文件中修改个人简介，在 _config.yml文件中修改网站名和网站简介。
+6. 按照 _posts 文件夹中的格式写文章，新文章以yyyy-mm-dd-engligh-title.md 的格式命名，放在 _posts 文件夹下。
 
 你可以在 <http://jekyllthemes.org/> 尽情挑选你觉得最好看的主题。
 
